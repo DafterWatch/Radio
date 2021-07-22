@@ -1,0 +1,23 @@
+{
+  "name": "Radio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DafterWatch/Radio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DafterWatch/Radio/issues"
+  },
+  "homepage": "https://github.com/DafterWatch/Radio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
