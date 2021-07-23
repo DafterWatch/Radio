@@ -1,8 +1,8 @@
+document.getElementById('profile-image').src = "/assets/user.png";
 $(function(){
     $('#profile-image').click( () =>{
         $('#image-selector').click();
     });
-
     $('#image-selector').change( (event) =>{
         let target = event.target || window.event.srcElement;
         let files = target.files;

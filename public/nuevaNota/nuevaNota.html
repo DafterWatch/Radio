@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="CSS/nuevaNota.css">
+    <title>Radio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+          Nueva Nota            
+          <label id="date" style="float: right;"></label>
+        </div><br>
+        <div class="form">
+            <div class="inputfield">
+              <label>Titulo Nota</label>
+              <input type="text" class="input">
+            </div>  
+            <div class="inputfield">
+              <label>Titular</label>
+              <input type="text" class="input">
+            </div>
+            <div class="inputfield">
+              <label>Desarrollo</label>
+              <textarea id="desarrolloText" name="desarrolloText1" rows="5" cols="50" class="input">                
+              </textarea>
+            </div>
+            <hr/>
+            <br>
+            <label>Imagen</label><br><br>
+            <div class="inputfield">
+              <img src="/assets/mp3.png" style="height: 100px; width: 100px;" id="archivoaudio">
+              <input type="file" name="archivoaudio1"/>
+            </div>
+            <hr/>
+            <br>
+            <label>Video</label><br><br>
+            <div class="inputfield">
+              <img src="/assets/mp4.png" style="height: 100px; width: 100px;" id="archivovideo">
+              <input type="file" name="archivovideo1"/>
+            </div>
+            <hr/>
+            <br>
+            <label>Audio</label><br><br>
+            <div class="inputfield">
+              <img src="/assets/imagen.png" style="height: 100px; width: 100px;" id="archivoimagen">
+              <input type="file" name="archivoimagen1"/>
+            </div>
+            <hr/>
+            <br>
+            <div class="inputfield">
+            <input type="submit" value="Enviar Nota" class="btn">
+          </div>
+        </div>
+        <script src="JS/nuevaNota.js"></script>
+    </div>	
+</body>
+</html>
