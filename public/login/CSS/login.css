@@ -175,3 +175,13 @@ body{
     flex-direction: row;
   }
 }
+
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+}
+.danger {background-color: #f44336;}
+.danger:hover {background: #da190b;}

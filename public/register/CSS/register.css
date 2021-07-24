@@ -11,7 +11,7 @@ body{
   padding: 0 10px;
 }
 .wrapper{
-  max-width: 900px;
+  max-width: 500px;
   width: 100%;
   background: #fff;
   margin: 20px auto;
@@ -175,6 +175,7 @@ body{
     flex-direction: row;
   }
 }
+
 .btn {
   border: none;
   color: white;

@@ -5,51 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="CSS/register.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Radio</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="title">
-          Registro de cuentas
+          Inicio
         </div>
-        <div class="form">
-           <div class="inputfield">
-              <label>Primer nombre</label>
-              <input type="text" class="input">
-           </div>  
-            <div class="inputfield">
-              <label>Apellido Paterno</label>
-              <input type="text" class="input">
-           </div>
-           
-          <div class="inputfield">
-            <label>Correo Electronico</label>
-            <input type="text" class="input">
-          </div> 
-           <div class="inputfield">
-              <label>Contraseña</label>
-              <input type="password" class="input">
-           </div>  
-          <div class="inputfield">
-              <label>Confirmar Contraseña</label>
-              <input type="password" class="input">
-           </div>    
-    
-          <div class="inputfield">
-              <label>Foto</label>
-              <img src="" id="profile-image" height="100px" width="100px">
-           </div>            
-          <div class="inputfield">
-            <input type="submit" value="Iniciar Sesion" class="btn">
-          </div>
-          <div class="inputfield">            
-            <input type="submit" value="Registrarse" class="btn"> 
-          </div>         
-          <input type="file" id="image-selector" style="display: none;">
-          <a href="noticiasIntefaz/noticiasInterfaz.html">aaa</a>
+        <div class="topnav" id="myTopnav">       
+          <a href="https://www.radiocompanera.com/">Pagina Web</a>
+          <a href="login/login.html">Iniciar Sesión</a>
+          <a href="register/register.html">Registrarse</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-        <script src="JS/register.js"></script>
+        
+        <div style="padding-left:16px">
+          <img src="assets/logoRadio.jpg" class="center">
+        </div>
+        <script src="JS/index.js"></script>
     </div>	
 </body>
 </html>

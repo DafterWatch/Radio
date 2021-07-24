@@ -1,5 +1,5 @@
-crear();
-function crear(){
+recargar();
+function recargar(){
     var titulo = "QQJ_Noticia1 - 00/00/0000";
     var aux = titulo;
     var audioLink = "QQJ_Mortalidad_de_los_michis.mp3";
@@ -33,4 +33,15 @@ function descargaImagen(){
 }
 function descargaVideo(){
     alert("descargando video");
+}
+function crearNota(){
+    var user = "1";    
+    if(user === "1"){
+        location.href = "../nuevaNota/nuevaNota.html";
+    } else if(user === "2"){
+        location.href = "../nuevaNotaInternacional/nuevaNotaInternacional.html";
+    }
+}
+function crearPubli(){
+    location.href = "../publicidadRadio/publicidadRadio.html";
 }

@@ -12,3 +12,7 @@ if(d<10){
 }
 a = y+"-"+m+"-"+d;
 dateControl.value = a;
+
+function volverNoticias(){
+    location.href = "../noticiasIntefaz/noticiasInterfaz.html";
+}
